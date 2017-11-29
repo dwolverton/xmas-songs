@@ -1,0 +1,37 @@
+/*@import url('https://fonts.googleapis.com/css?family=Acme|Gloria+Hallelujah|Indie+Flower|Montserrat');*/
+@import url('https://fonts.googleapis.com/css?family=Cormorant+Garamond|EB+Garamond|Source+Serif+Pro');
+body {
+    /*font-family: 'Source Serif Pro';*/
+    font-family: 'Cormorant Garamond';
+    /*font-family: 'EB Garamond';*/
+    font-size: 120%;
+}
+
+a:link, a:visited {
+    color: #0000EE;
+}
+
+.back-link {
+    text-decoration: none;
+}
+
+h1 {
+    font-size: 1.7em;
+    margin: 0.2em 0 0.67em 0;
+}
+
+.stanza {
+    margin-bottom: 1em;
+}
+
+.stanza-plus {
+    margin-top: 1.6em;
+}
+
+.indent {
+    margin-left: 1em;
+}
+
+p {
+    margin: 0 0 .08em 0;
+}
