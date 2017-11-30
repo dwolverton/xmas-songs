@@ -7,25 +7,51 @@ body {
     font-size: 120%;
 }
 
+.page-font-size--med body {
+    font-size: 150%;
+}
+
+.page-font-size--large body {
+    font-size: 200%;
+}
+
 a:link, a:visited {
     color: #0000EE;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    font-size: 19px;
+    padding-right: 5px;
 }
 
 .back-link {
     text-decoration: none;
 }
 
+.font-size-selector__small {
+
+}
+.font-size-selector__med {
+    font-size: 120%;
+}
+.font-size-selector__large {
+    font-size: 160%;
+}
+
+
 h1 {
-    font-size: 1.7em;
+    font-size: 34px;
     margin: 0.2em 0 0.67em 0;
 }
 
 .stanza {
-    margin-bottom: 1em;
+    margin-bottom: 1.2em;
 }
 
 .stanza-plus {
-    margin-top: 1.6em;
+    margin-top: 1.8em;
 }
 
 .indent {
@@ -34,4 +60,6 @@ h1 {
 
 p {
     margin: 0 0 .08em 0;
+    padding-left: 1.7em;
+    text-indent: -1.7em;
 }

@@ -10,7 +10,15 @@
 </head>
 
 <body>
-    <a class="back-link" href="index.html">&lArr; Back</a>
+    <header>
+        <a class="back-link" href="index.html">&lArr; Back</a>
+        <div class="font-size-selector">
+            Font Size:
+            <a href="#" class="font-size-selector__small" onclick="setFontSize('small')">A</a>
+            <a href="#" class="font-size-selector__med" onclick="setFontSize('med')">A</a>
+            <a href="#" class="font-size-selector__large" onclick="setFontSize('large')">A</a>
+        </div>
+    </header>
 
     <h1>Silent Night</h1>
 
@@ -47,6 +55,7 @@
         <p>Christ the Savior is born!</p>
     </div>
 
+    <script src="script.js"></script>
 </body>
 
 </html>
