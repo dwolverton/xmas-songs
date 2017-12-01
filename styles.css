@@ -73,3 +73,13 @@ p {
     padding-left: 1.7em;
     text-indent: -1.7em;
 }
+
+.number {
+    color: #222;
+    margin-left: -2px;
+    position: relative;
+    top: -0.15em;
+}
+.number::after {
+    content:'.'
+}
